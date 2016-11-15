@@ -34,7 +34,7 @@ routes.add(method: .get, uri: "/", handler: {
 	// Setting the response content type explicitly to text/html
 	response.setHeader(.contentType, value: "text/html")
 	// Adding some HTML to the response body object
-	response.appendBody(string: "<html><title>Hello, wd!</title><body>Hello, world!</body></html>")
+	response.appendBody(string: "<html><title>swift服务端</title><body>Hello,服务端swift</body></html>")
 	// Signalling that the request is completed
 	response.completed()
 	}

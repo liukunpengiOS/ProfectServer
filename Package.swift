@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyAwesomeProject",
+    name: "ProfectServer",
     dependencies: [
         .Package(
             url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
